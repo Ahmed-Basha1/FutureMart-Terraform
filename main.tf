@@ -587,7 +587,7 @@ resource "azurerm_log_analytics_solution" "vminsights" {
 
 
 resource "azurerm_monitor_data_collection_rule" "dcr_law_futureMart" {
-  name                = "dcr-law-futureMart58"
+  name                = "dcr-law-futureMart"
   resource_group_name = azurerm_resource_group.rg_compute.name
   location            = azurerm_resource_group.rg_compute.location
 

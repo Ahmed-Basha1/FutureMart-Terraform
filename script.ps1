@@ -11,3 +11,7 @@ terraform fmt
 terraform plan
 
 terraform apply -auto-approve
+
+terrform graph
+
+terraform graph | dot -Tpng -o architecture1.pngs
